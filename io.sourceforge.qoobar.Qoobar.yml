@@ -27,7 +27,7 @@ cleanup:
   - '*.a'
 modules:
   - name: shntool
-    buldsystem: autotools
+    buildsystem: autotools
     config-opts:
       - --prefix=/app
     sources:
